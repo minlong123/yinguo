@@ -8,16 +8,22 @@ menu:
   - page: 首页
     url: /
     icon:
-  - page: 现代因果实录
-    url: /categories/现代因果实录/
+  - page: 阿秋法王讲因果轮回真事
+    url: /categories/阿秋法王讲因果轮回真事/
     icon:
-  - page: 现代因果实录2
-    url: /categories/后端/
+  - page: 因果故事
+    url: /categories/因果故事/
     icon:
-  - page: 现代因果实录3
-    url: /categories/工具/
+  - page: 现代因果实录(一)
+    url: /categories/现代因果实录1/
     icon:
-  - page: 因果实录
+  - page: 现代因果实录(二)
+    url: /categories/现代因果实录2/
+    icon:
+  - page: 现代因果实录(三)
+    url: /categories/现代因果实录3/
+    icon:
+  - page: 时光轴
     url: /archives/
     icon:
 
@@ -29,7 +35,7 @@ rss: /atom.xml
 
 ## Carousel
 carousel:
-  img: "./img/head-img.jpg"
+  img: "./img/22.webp"
   url: "https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=xs0pypd2"
 
 # 各个小工具的设置
@@ -38,11 +44,11 @@ carousel:
 widgets:
   - search
   - notification
-  - social
+  # - social
   - category
   - archive
   - tagcloud
-  - friends
+  # - friends
 
 ## 搜索
 jsonContent:
@@ -58,9 +64,11 @@ jsonContent:
 ## 网站公告设置
 notification: |-
   <p>
-      主题下载：<a href="https://github.com/shenliyang/hexo-theme-snippet" title="fork me" target="_blank">Snippet主题</a> <br/>
-      主题使用：<a href="https://github.com/shenliyang/hexo-theme-snippet/blob/master/README.md#常见问题" title="" target="_blank">常见使用问题</a> <br/>
-      支持主题：<a href="https://github.com/shenliyang/hexo-theme-snippet/stargazers">Star一下</a>
+      太上感应篇：<a href="http://www.taishangganyingpian.com/" title="fork me" target="_blank">太上感应篇</a> <br/>
+      安士全书：<a href="http://www.anshiquanshu.com/" title="" target="_blank">安士全书</a> <br/>
+      现代因果实录：<a href="http://www.xiandaiyinguoshilu.com/">现代因果实录</a><br/>
+      百业经：<a href="https://yd.qq.com/web/bookDetail/9fe329007183346d9fea0b3">百业经</a><br/>
+      孝顺父母：<a href="http://www.777777777.cn/">孝顺父母</a><br/>
   </p>
 
 ## 社交设置
@@ -115,11 +123,11 @@ links:
 # 主题自定义个性化配置
 
 ## 网站宣传语
-branding:
+branding: 如是因，如是果
 
 ## 设置banner背景图片
 banner:
-  img: https://hexo-theme-snippet-1251680922.cos.ap-beijing.myqcloud.com/img/banner.jpg
+  img: img/yinguo.jpg
 
 ## 首页列表底部面板
 homePanel: true
@@ -145,15 +153,15 @@ fontAwesome:
 
 ## 文章过期提醒功能
 warning:
-  days: 300
+  days: 30000000000000000000
   text: "本文于%d天之前发表，文中内容可能已经过时。"
 
 ## 文章内声明
 declaration:
   enable: true
-  title: "转载声明"
-  tip: |-
-    商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+  title: "欢迎转发、复制、分享"
+  tip: 即以此功德，庄严佛净土。上报四重恩，下救三道苦。惟愿见闻者，悉发菩提心。在世富贵全，往生极乐国。
+    
 
 ## 文章打赏
 reward:

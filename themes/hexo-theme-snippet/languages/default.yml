@@ -1,5 +1,5 @@
-categories: Categories
-search: Search
+categories: 分类管理
+search: 搜索
 tags: Tags
 tagcloud: Tag Cloud
 tweets: Tweets
@@ -21,18 +21,18 @@ social: Social
 friend_links: Friends
 read_more: Read
 home: Home
-archives: Archives
+archives: 时光轴
 about: About
-search_local: localSearch
+search_local: 立即搜索
 search_google: googleSearch
-search_placeholder: Search What？
+search_placeholder: 搜索有关的因果？
 author: Author
 date: Published Date
 update: Updated Date
 post_categories: Categories
 post_tags: Tags
 post_licence: License
-notification: Notification
-toc: Table of Contents
+notification: 友情链接
+toc: 文档索引
 visit_counter_uv: Visitors
 visit_counter_pv: Total

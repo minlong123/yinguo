@@ -272,15 +272,15 @@ pre {
   width: 320px;
   margin: 0 auto;
   letter-spacing: 3px;
-  color: #e67e22;
+  color: #000;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  background-image: -webkit-linear-gradient(left, #cddc39, #e67e22 25%, #cddc39 50%, #e67e22 75%, #cddc39) !important;
+  /* background-image: -webkit-linear-gradient(left, #cddc39, #e67e22 25%, #cddc39 50%, #e67e22 75%, #cddc39) !important;
   -webkit-text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
   background-size: 200% 100% !important;
-  animation: masked-animation 2s infinite linear !important;
+  animation: masked-animation 2s infinite linear !important; */
 }
 .main-header .main-header-box .branding h2:hover {
   animation: masked-animation 1s infinite linear !important;
@@ -1520,6 +1520,13 @@ pre .javascript .function {
     display: block;
     width: 33%;
     float: left;
+    overflow : hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    text-overflow: ellipsis; 
+
+
   }
   .main-navigation .menu li:hover > a {
     color: #e67e22;

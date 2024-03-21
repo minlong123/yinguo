@@ -217,7 +217,7 @@ banner:
 
 ## 设置carousel{@img:图片地址,@url:点击跳转链接(默认值:"javascript:")}
 carousel:
-  img: 'img/head-img.jpg'
+  img: 'img/22.webp'
   url: 'javascript:'
 
 ## 首页列表底部面板{@homePanel: 是否开启}
