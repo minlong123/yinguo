@@ -14,18 +14,18 @@ menu:
   - page: 因果故事
     url: /categories/因果故事/
     icon:
-  - page: 现代因果实录(一)
+  - page: 现代因果实录1
     url: /categories/现代因果实录1/
     icon:
-  - page: 现代因果实录(二)
+  - page: 现代因果实录2
     url: /categories/现代因果实录2/
     icon:
-  - page: 现代因果实录(三)
+  - page: 现代因果实录3
     url: /categories/现代因果实录3/
     icon:
-  - page: 时光轴
-    url: /archives/
-    icon:
+  # - page: 时光轴
+  #   url: /archives/
+  #   icon:
 
 ## favicon
 favicon: /favicon.ico
@@ -46,9 +46,9 @@ widgets:
   - notification
   # - social
   - category
-  - archive
+  # - archive
   - tagcloud
-  # - friends
+  - friends
 
 ## 搜索
 jsonContent:
@@ -64,11 +64,14 @@ jsonContent:
 ## 网站公告设置
 notification: |-
   <p>
+      五明学佛网：<a href="http://www.wmxf.net/" title="fork me" target="_blank">五明学佛网</a> <br/>
       太上感应篇：<a href="http://www.taishangganyingpian.com/" title="fork me" target="_blank">太上感应篇</a> <br/>
       安士全书：<a href="http://www.anshiquanshu.com/" title="" target="_blank">安士全书</a> <br/>
       现代因果实录：<a href="http://www.xiandaiyinguoshilu.com/">现代因果实录</a><br/>
       百业经：<a href="https://yd.qq.com/web/bookDetail/9fe329007183346d9fea0b3">百业经</a><br/>
       孝顺父母：<a href="http://www.777777777.cn/">孝顺父母</a><br/>
+      善知识：<a href="http://www.iwantech.org/">善知识</a><br/>
+      
   </p>
 
 ## 社交设置
@@ -119,6 +122,8 @@ tagcloud:
 ## 友链设置
 links:
   - Hexo官网: https://hexo.io/zh-cn/
+
+
 
 # 主题自定义个性化配置
 

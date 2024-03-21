@@ -1,4 +1,5 @@
-<aside id="article-toc" role="navigation" class="col-md-4">
+
+<!-- <aside id="article-toc" role="navigation" class="col-md-4">
     <div class="widget">
         <h3 class="title">
             <%= __('toc') %>
@@ -9,4 +10,11 @@
         <p>暂无目录</p>
         <% } %>
     </div>
-</aside>
+</aside> -->
+<% if(theme.widgets && theme.widgets.length >0){ %>
+    <aside class="col-md-4 sidebar">
+        <% theme.widgets.forEach(function(widget){ %>
+        <%- partial('_widget/' + widget) %>
+        <% }) %>
+    </aside>
+    <%}%>

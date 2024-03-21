@@ -4,16 +4,16 @@
 
 # Site
 title: 因果正见
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+subtitle: '随文忏悔，断恶修善，永不复造，培养徳行，改变多灾多难的命运。'
+description: '随文忏悔，断恶修善，永不复造，培养徳行，改变多灾多难的命运。'
+keywords: 随文忏悔，断恶修善，永不复造，培养徳行，改变多灾多难的命运。
+author: 善知识
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://localhost/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
