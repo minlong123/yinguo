@@ -323,6 +323,8 @@ pre {
   list-style: none;
   display: inline-block;
   position: relative;
+
+  
 }
 .main-navigation .menu li a {
   color: #505050;
@@ -482,7 +484,7 @@ pre {
   overflow: hidden;
 }
 .post .post-body p {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5;
   word-break: break-all;
 }
