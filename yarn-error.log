@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\minlong\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --production --ignore-optional --silent
+
+PATH: 
+  ;C:\Perl\site\bin;C:\Perl\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\composer;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Visual Leak Detector\bin\Win32;C:\Program Files (x86)\Visual Leak Detector\bin\Win64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Ruby27-x64\bin;C:\Users\minlong\Anaconda3;C:\Users\minlong\Anaconda3\Library\mingw-w64\bin;C:\Users\minlong\Anaconda3\Library\usr\bin;C:\Users\minlong\Anaconda3\Library\bin;C:\Users\minlong\Anaconda3\Scripts;C:\Program Files\JetBrains\PyCharm 2020.1\bin;C:\Users\minlong\Desktop\redis;C:\Users\minlong\AppData\Roaming\Composer\vendor\bin;%OPENCV_DIR%\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;C:\Users\minlong\cudnn\cuda\bin;C:\Program Files (x86)\Graphviz2.38\bin;C:\Users\minlong\Desktop\FFEpeg\ffmpeg\bin;C:\Program Files (x86)\MPlayer for Windows;C:\Program Files\Git\bin;C:\Qt\Qt5.9.8\5.9.8\msvc2015\bin;C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86;D:\FFEpeg\ffmpeg\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Users\minlong\composer;C:\Users\minlong\Desktop\lames\sox;C:\Users\minlong\Desktop\lames\lame3.99.3;C:\Users\minlong\AppData\Local\GitHubDesktop\bin;D:\soundstretch;C:\Qt\QtIFW-4.0.1\bin;E:\apache-maven-3.8.2\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\minlong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\wamp64\www\test24\public\pngquant.exe;E:\poppler\poppler-0.67.0\bin;C:\Program Files\gs\gs9.23\bin;E:\wkhtmltopdf\bin;E:\phantomjs-2.1.1-windows\bin;C:\wamp64\bin\php\php7.4.26;D:\ffmpeg\ffmpeg.exe;C:\Program Files\Erlang OTP\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\minlong\Desktop\qshell;C:\Users\minlong\Desktop\ffmpeg\ffmpeg.exe;C:\Users\minlong\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1659:34)
+      at TLSSocket.emit (node:events:517:28)
+      at TLSSocket._finishInit (node:_tls_wrap:1070:8)
+      at ssl.onhandshakedone (node:_tls_wrap:856:12)
+
+npm manifest: 
+  {
+    "name": "hexo-site",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "build": "hexo generate",
+      "clean": "hexo clean",
+      "deploy": "hexo deploy",
+      "server": "hexo server"
+    },
+    "hexo": {
+      "version": ""
+    },
+    "dependencies": {
+      "hexo": "^7.0.0",
+      "hexo-generator-archive": "^2.0.0",
+      "hexo-generator-category": "^2.0.0",
+      "hexo-generator-index": "^3.0.0",
+      "hexo-generator-tag": "^2.0.0",
+      "hexo-renderer-ejs": "^2.0.0",
+      "hexo-renderer-marked": "^6.0.0",
+      "hexo-renderer-stylus": "^3.0.0",
+      "hexo-server": "^3.0.0",
+      "hexo-theme-landscape": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
