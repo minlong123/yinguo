@@ -98,16 +98,26 @@ window.onload = function () {
   window.addEventListener("scroll", function () {
     if ($toc) {
       var top = $toc.offsetTop;
+
       var left = $toc.offsetLeft;
       var width = $toc.offsetWidth;
-      if (getScrollTop() <= top) {
+
+      if(getScrollTop() < 254){
         $toc.style = "";
-      } else {
-        $toc.style.position = "fixed";
-        $toc.style.top = "5px";
-        $toc.style.left = left + "px";
-        $toc.style.width = width + "px";
+      }else{
+
+        if (getScrollTop() <= top) {
+          $toc.style = "";
+        } else {
+          $toc.style.position = "fixed";
+          $toc.style.top = "5px";
+          $toc.style.left = left + "px";
+          $toc.style.width = width + "px";
+        }
+
       }
+
+
     }
     clearTimeout(timer);
     timer = setTimeout(function fn() {
